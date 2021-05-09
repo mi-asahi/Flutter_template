@@ -24,7 +24,7 @@ dependencies:
   # TODO: dio_firebase_performance does not yet support NNBD.
   # dio_firebase_performance: ^0.3.0
   # For User-Agent Client Hints
-  ua_client_hints: ^1.0.3
+  # ua_client_hints: ^1.0.3
 
   # For Model
   json_serializable: ^4.0.2

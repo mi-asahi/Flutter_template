@@ -22,3 +22,7 @@ add this to `{project}/.vscode/settings.json`
     "dart.flutterSdkPath": "../fvm/flutter_sdk"
 }
 ```
+
+### MVVM
+<img height="520px" src="https://github.com/wasabeef/art/raw/master/flutter-architecture-blueprints/MVVM.jpg" />
+

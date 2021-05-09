@@ -10,6 +10,10 @@ import 'package:flutter/services.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  AssetGenImage get articlePlaceholder =>
+      const AssetGenImage('assets/images/article_placeholder.webp');
+  AssetGenImage get iconPlaceholder =>
+      const AssetGenImage('assets/images/icon_placeholder.jpg');
   AssetGenImage get temp => const AssetGenImage('assets/images/temp.jpg');
 }
 
