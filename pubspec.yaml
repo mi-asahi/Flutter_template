@@ -90,6 +90,7 @@ flutter:
 
 # flavor defination
 # generate command :`fvm flutter pub run flutter_flavorizr`
+# NOTICE: Android applicationId must follow the naming rules (https://developer.android.com/studio/build/application-id)
 # NOTICE: run generate command will rewrite app.dart
 flavorizr:
   app:
@@ -103,7 +104,7 @@ flavorizr:
         name: "template-dev"
         
       android:
-        applicationId: "com.mi-asahi.flutter-template-dev"
+        applicationId: "com.mi_asahi.flutter_template_dev"
 
       ios:
         bundleId: "com.mi-asahi.flutter-template-dev"
@@ -113,7 +114,7 @@ flavorizr:
         name: "template-stg"
         
       android:
-        applicationId: "com.mi-asahi.flutter-template-stg"
+        applicationId: "com.mi_asahi.flutter_template_stg"
         
       ios:
         bundleId: "com.mi-asahi.flutter-template-stg"
@@ -123,7 +124,7 @@ flavorizr:
         name: "template"
         
       android:
-        applicationId: "com.mi-asahi.flutter-template"
+        applicationId: "com.mi_asahi.flutter_template"
           
       ios:
         bundleId: "com.mi-asahi.flutter-template"

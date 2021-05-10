@@ -33,17 +33,17 @@ android {
     productFlavors {
         develop {
             dimension "environment"
-            applicationId "com.mi-asahi.flutter-template-dev"
+            applicationId "com.mi_asahi.flutter_template_dev"
             resValue "string", "app_name", "template-dev"
         }
         staging {
             dimension "environment"
-            applicationId "com.mi-asahi.flutter-template-stg"
+            applicationId "com.mi_asahi.flutter_template_stg"
             resValue "string", "app_name", "template-stg"
         }
         product {
             dimension "environment"
-            applicationId "com.mi-asahi.flutter-template"
+            applicationId "com.mi_asahi.flutter_template"
             resValue "string", "app_name", "template"
         }
     }
