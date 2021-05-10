@@ -23,6 +23,16 @@ add this to `{project}/.vscode/settings.json`
 }
 ```
 
+### About Flavor
+
+This project use [flutter_flavorizr](https://pub.dev/packages/flutter_flavorizr) to generate flavors of both android and iOS .
+
+> ## NOTICE
+>
+> NOTICE: Android applicationId must follow the [naming rules](https://developer.android.com/studio/build/application-id)
+>
+> NOTICE: run generate command will rewrite app.dart
+
 ### MVVM
 <img height="520px" src="https://github.com/wasabeef/art/raw/master/flutter-architecture-blueprints/MVVM.jpg" />
 
