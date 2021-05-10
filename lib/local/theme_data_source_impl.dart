@@ -15,7 +15,7 @@ class ThemeDataSourceImpl extends ThemeDataSource {
   Future<ThemeMode?> loadThemeMode() async {
     final prefs = await _prefs.getInstance();
     return EnumToString.fromString(
-        ThemeMode.values, prefs.getString(keyThemeMode)!);
+        ThemeMode.values, prefs.getString(keyThemeMode) ?? "");
   }
 
   @override

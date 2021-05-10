@@ -15,6 +15,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.5.0"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.2"
   args:
     dependency: transitive
     description:
@@ -244,6 +251,20 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_flavor:
+    dependency: "direct dev"
+    description:
+      name: flutter_flavor
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
+  flutter_flavorizr:
+    dependency: "direct dev"
+    description:
+      name: flutter_flavorizr
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   flutter_gen_core:
     dependency: transitive
     description:
@@ -768,13 +789,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.0"
-  ua_client_hints:
-    dependency: "direct main"
-    description:
-      name: ua_client_hints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.3"
   vector_math:
     dependency: transitive
     description:

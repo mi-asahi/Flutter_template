@@ -54,6 +54,10 @@ dev_dependencies:
 
   build_runner: ^1.11.1
   flutter_gen_runner: ^3.0.2
+  
+  # For Flavor
+  flutter_flavorizr: ^2.0.0
+  flutter_flavor: ^2.0.0
 
   # For Model
   freezed: ^0.14.0
@@ -82,4 +86,44 @@ flutter:
       fonts:
         - asset: assets/fonts/Rotunda-Bold.otf
           weight: 700
-    
+
+
+# flavor defination
+# generate command :`fvm flutter pub run flutter_flavorizr`
+# NOTICE: run generate command will rewrite app.dart
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "environment"
+    ios:
+
+  flavors:
+    develop:
+      app:
+        name: "template-dev"
+        
+      android:
+        applicationId: "com.mi-asahi.flutter-template-dev"
+
+      ios:
+        bundleId: "com.mi-asahi.flutter-template-dev"
+
+    staging:
+      app:
+        name: "template-stg"
+        
+      android:
+        applicationId: "com.mi-asahi.flutter-template-stg"
+        
+      ios:
+        bundleId: "com.mi-asahi.flutter-template-stg"
+
+    product:
+      app:
+        name: "template"
+        
+      android:
+        applicationId: "com.mi-asahi.flutter-template"
+          
+      ios:
+        bundleId: "com.mi-asahi.flutter-template"

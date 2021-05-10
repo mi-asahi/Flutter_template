@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'constants.dart';
+import 'flavors.dart';
 import 'ui/app_theme.dart';
 import 'ui/detail/detail_page.dart';
 import 'ui/home/home_page.dart';
@@ -18,7 +19,7 @@ class App extends HookWidget {
     useFuture(useMemoized(appTheme.themeMode, [setting]),
         initialData: ThemeMode.light);
     return GetMaterialApp(
-      title: 'Flutter Architecture Blueprints',
+      title: F.title,
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: setting,
